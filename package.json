@@ -5,6 +5,8 @@
     "@amzn/awsui-components-react": "^3.0.878",
     "@amzn/harmony-react-tutorials": "^1.0.26",
     "ajv": "^6.12.5",
+    "env-cmd": "^10.1.0",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.9.0"
@@ -22,13 +24,16 @@
     "typescript": "^4.7.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test-react": "react-scripts test --env=jsdom",
     "test": "echo no test",
     "eject": "react-scripts eject",
     "build-harmony-app": "build-harmony --templateName react",
-    "publish": "build-harmony --templateName react --brazil-build"
+    "publish": "build-harmony --templateName react --brazil-build",
+    "build:staging": "env-cmd -f .env.staging npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -58,5 +63,5 @@
     ]
   },
   "harmony-version": "1.7.101",
-  "homepage": "/bilal-app/"
+  "homepage": "https://github.com/bilalboultif/harmony-app"
 }

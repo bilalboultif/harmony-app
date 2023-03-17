@@ -1,0 +1,5 @@
+base = {
+  workspace = boultifb_Harmony-bilal-app;
+  versionSet = live;
+};
+packages = { Harmony-bilal-app-1.0 = .; };

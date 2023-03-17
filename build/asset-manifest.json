@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/bilalboultif/harmony-app/static/css/main.a53d7825.css",
+    "main.js": "/bilalboultif/harmony-app/static/js/main.437ce3b1.js",
+    "static/media/polaris-logo.svg": "/bilalboultif/harmony-app/static/media/polaris-logo.f1372640ad79d9dffa0dedfb669ee657.svg",
+    "static/media/katal-logo.svg": "/bilalboultif/harmony-app/static/media/katal-logo.397d891678e4074359c372472b883c5b.svg",
+    "static/media/meridian-logo.svg": "/bilalboultif/harmony-app/static/media/meridian-logo.24f247898b9af79bf5cccb2650cce1f3.svg",
+    "static/media/logo.svg": "/bilalboultif/harmony-app/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
+    "static/media/slack-logo.svg": "/bilalboultif/harmony-app/static/media/slack-logo.cf81957b197376b4a9b765d19866945b.svg",
+    "static/media/sage-logo.svg": "/bilalboultif/harmony-app/static/media/sage-logo.29b9aa117425d95309e38ef8cd488bff.svg",
+    "index.html": "/bilalboultif/harmony-app/index.html",
+    "static/media/tt-logo.svg": "/bilalboultif/harmony-app/static/media/tt-logo.ec9060fe85c88f957ad7663881ed5a1f.svg",
+    "main.a53d7825.css.map": "/bilalboultif/harmony-app/static/css/main.a53d7825.css.map",
+    "main.437ce3b1.js.map": "/bilalboultif/harmony-app/static/js/main.437ce3b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a53d7825.css",
+    "static/js/main.437ce3b1.js"
+  ]
+}
